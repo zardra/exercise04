@@ -176,12 +176,13 @@ def custom_reverse(input_list):
     return input_list
 
 # input_list[:] = input_list[::-1]
+# Take the guts of the input_list and fill it with the guts reversed
 
 
 # a = [1, 2, 3, 4, 5]
 
 # reverse_list = []
-# while len(a) > 0:
+# while len(a) > 0: 
 #     for i in a:
 #         end_value = a.pop()
 #         reverse_list.append(end_value)
